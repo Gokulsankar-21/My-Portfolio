@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="flex items-center justify-center px-4">
       
     </main>
   )

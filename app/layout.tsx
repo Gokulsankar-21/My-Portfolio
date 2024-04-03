@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} 
-      bg-gray-50 text-gray-950  relative
+      bg-gray-50 text-gray-950 relative
       `}>
         
           {/* big blurry dots -  trendy design */}
