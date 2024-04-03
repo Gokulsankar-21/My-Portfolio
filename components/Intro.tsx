@@ -41,4 +41,10 @@ export default function Intro() {
  * 
  * enaku oru cool ana image ah ready pannanum,
  * cool and stylish ana profile venum
+ * Docker la excite ana visyam iruku -  vm oda - cloud host env oda
+ * typescript - another god gift ah irukum
+ * enaku oru computer venum athu enaku romba payanullatha iruku, athu moolima na athigama visyangala explore pannuven, productivity topnatch ah irukum
+ * 
+ ennoda manathiraila iT industry pathi na oru visuaalize  panni iruken
+ * 
  */
