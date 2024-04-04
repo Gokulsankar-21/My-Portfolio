@@ -39,8 +39,8 @@ export default function Intro() {
             </motion.div>
         </div>
         {/* Text */}
-        <motion.p 
-        className='mt-4 mb-10 px-4 text-2xl sm:text-3xl  font-medium !leading-[1.5] '
+        <motion.h1 
+        className='mt-4 mb-10 px-4 text-lg sm:text-xl md:text-2xl lg:text-3xl  font-medium sm:!leading-[1.5] '
         
         initial={{opacity:0,y:100}}
         animate={{opacity:1,y:0}}>
@@ -56,10 +56,10 @@ export default function Intro() {
                 web apps and sites
             </span>. My focus is {' '}
             <span className='underline cursor-pointer'>React (Next.js)</span>
-        </motion.p>
+        </motion.h1>
         {/* Actions */}
         <motion.div className='flex flex-col sm:flex-row
-         items-center justify-center gap-2 font-medium text-lg'
+         items-center justify-center gap-2 font-medium !text-sm  md:text-lg'
          initial={{opacity:0,y:100}}
          animate={{opacity:1,y:0}}
          >
@@ -75,13 +75,13 @@ export default function Intro() {
              </a>
 
              <a className='text-gray-700 p-4 bg-white rounded-full flex items-center justify-center
-             outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 hover:text-gray-950'
+             outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10  text-[1.20rem] hover:text-gray-950'
              
              href='https://github.com/Gokulsankar-21' target='_blank'>
                 <BsLinkedin />
              </a>
 
-             <a className='text-gray-700 p-4 bg-white rounded-full flex items-center justify-center text-[1.35rem]
+             <a className='text-gray-700 p-4 bg-white rounded-full flex items-center justify-center text-[1.25rem]
              outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 hover:text-gray-950'
              href='https://github.com/Gokulsankar-21' target='_blank'>
                 <FaGithubSquare  />
